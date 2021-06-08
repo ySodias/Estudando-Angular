@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NovaTransferenciaComponent implements OnInit {
 
+  valor: number;
+  destino: number;
+
   constructor() { }
 
   ngOnInit(): void {
